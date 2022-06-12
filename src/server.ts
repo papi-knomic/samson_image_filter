@@ -34,7 +34,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   // Root Endpoint
   // Displays a simple message to the user
   app.get( "/", async ( req, res ) => {
-    res.sendFile(__dirname + "/views/index.html");
+    res.sendFile(__dirname + "/public/index.html");
   } );
 
   app.get( "/filteredimage", async ( req, res ) => {
